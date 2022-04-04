@@ -1,0 +1,85 @@
+body {
+  padding: 0px;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.navbar {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.search {
+  float: right;
+  padding: 5px 0px;
+  margin-right: 80px;
+  border: none;
+  outline: none;
+}
+.featuredright {
+  margin-top: 80px;
+}
+.featuredleft h1 {
+  margin-bottom: 44px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h3 {
+  color: red;
+}
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stories {
+  background-color: yellow;
+  height: 93vh;
+  padding: 40px;
+}
+
+.stories h1 {
+  font-size: 29px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+}
+
+
+@media only screen and (max-width: 780px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stories {
+    background-color: yellow;
+    width: 80%;
+    height: 100%;
+  }
+
+  .featuredleft,
+  .featuredright {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
